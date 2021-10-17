@@ -1,0 +1,36 @@
+body {
+    background-color: blue;
+}
+
+.informativa {
+    background-color: chartreuse;
+}
+
+.imagen>img {
+    width: 420px;
+    height: auto;
+}
+
+header>h1 {
+    color: crimson;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.minun {
+    list-style: none;
+    font-size: 20px;
+}
+
+.minun>li>p>a {
+    color: white;
+    text-decoration: none;
+}
+
+.minun>.list>p>a {
+    color: darkorange;
+}

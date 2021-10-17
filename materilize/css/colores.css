@@ -1,0 +1,22 @@
+.capsula {
+    background-color: #6a1b9a;
+    margin-left: 1px;
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.verde {
+    background-color: cyan !important;
+    color: white
+}
+
+.azul {
+    background-color: #2196f3 !important;
+    color: white;
+}
+
+.amarillo {
+    background-color: yellow !important;
+    color: black !important;
+}

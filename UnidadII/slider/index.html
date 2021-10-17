@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="icon" href="asset/logotipo/icono.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div class="content-fluid">
+        <header class="row">
+
+            <!---====================
+         Cabezote===============-->
+            <figure id="logotipo" class="col-lg-2 col-md-3 col-sm-2 col-xs-12">
+                <img src="asset/logotipo/logotipo.png" alt="logo">
+            </figure>
+            <div class="col-lg-4 col-md-2 col-sm-1 col-xs-0">
+                <br>
+            </div>
+            <nav class="col-lg-6 col-md-7 col-sm-8 col-xs-12">
+
+                <ul>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Boton 1</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Boton 2</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Boton 3</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Boton 4</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Boton 5</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Boton 6</a></li>
+
+                </ul>
+
+            </nav>
+
+
+        </header>
+
+        <div class="row" id="slide">
+            <ul>
+                <li><img src="asset/img/slide01.jpg">
+                    <div class="textoSlide">
+                        <h1>Ice cream biscuit</h1>
+                        <h3>I love I love cake cheesecake</h3>
+                    </div>
+                </li>
+                <li><img src="asset/img/slide02.jpg">
+                    <div class="textoSlide">
+                        <h1>Ice cream biscuit</h1>
+                        <h3>I love I love cake cheesecake</h3>
+                    </div>
+                </li>
+                <li><img src="asset/img/slide03.jpg">
+                    <div class="textoSlide">
+                        <h1>Ice cream biscuit</h1>
+                        <h3>I love I love cake cheesecake</h3>
+                    </div>
+                </li>
+                <li><img src="asset/img/slide04.jpg">
+                    <div class="textoSlide">
+                        <h1>Ice cream biscuit</h1>
+                        <h3>I love I love cake cheesecake</h3>
+                    </div>
+                </li>
+            </ul>
+            <ol id="paginacion">
+                <li item="1"><i class="far fa-circle"></i></li>
+                <li item="2"><i class="far fa-circle"></i></li>
+                <li item="3"><i class="far fa-circle"></i></li>
+                <li item="4"><i class="far fa-circle"></i></li>
+            </ol>
+            <div class="flechas" id="left"><span><i class="fas fa-chevron-circle-left"></i></span></div>
+            <div class="flechas" id="right"><span><i class="fas fa-chevron-circle-right"></i></span></div>
+
+        </div>
+    </div>
+
+    <script src="js/slider.js"></script>
+</body>
+
+</html>
