@@ -1,5 +1,11 @@
+/*============================
+Objetos: Es una colección de propiedades y Métodos
+estas se pueden crear de cero sin necesidad de 
+heredar una clase ejemplos:
+=============================*/
+/**colección de propiedades */
 const people = {
-    //una propiedad es una asocoacoón entre un nombre y un valor
+    //una propiedad es una asoción entre un nombre y un valor
 
     nombre: "juan",
     edad: 40,
@@ -20,41 +26,8 @@ people.descripcion();
 people.saludar("Hola Buenas tardes");
 
 
-const primerCorredor = {
-    a: 0,
-    b: 0,
-    c: 0,
-    d: 0,
-    resultado: function() {
-        if (primerCorredor.c > primerCorredor.b &&
-            primerCorredor.d > primerCorredor.b &&
-            primerCorredor.d > primerCorredor.c &&
-            primerCorredor.d < primerCorredor.a) {
-            return true;
-        }
-        return false;
-
-    },
-    Tiempo: setInterval(function() {
-
-        primerCorredor.a = Math.ceil(Math.random() * 4)
-        primerCorredor.b = Math.ceil(Math.random() * 4)
-        primerCorredor.c = Math.ceil(Math.random() * 4)
-        primerCorredor.b = Math.ceil(Math.random() * 4)
 
 
-        if (primerCorredor.resultado()) {
-            clearInterval(primerCorredor.intervalo);
-            console.log("atleta A", primerCorredor.a)
-            console.log("atleta B", primerCorredor.b)
-            console.log("atleta C", primerCorredor.c)
-            console.log("atleta D", primerCorredor.d)
-        }
-    }, 10)
-}
-
-primerCorredor.resultado();
-console.log(primerCorredor.Tiempo);
 
 
 //objetos literales
